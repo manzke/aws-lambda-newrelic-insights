@@ -1,0 +1,8 @@
+{
+  "accountId": "<accountId>",
+  "apiKey": "<apiKey>",
+  "item": {
+    "eventType": "lambdaInsightsPushEvent",
+    "sampleAttribute": "bla"
+  }
+}
