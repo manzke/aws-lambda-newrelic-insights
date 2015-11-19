@@ -9,8 +9,9 @@ tests/events.json is one specific event which can be used with insights-pusher-l
 
 1. git clone
 2. npm install
-3. zip npm_modules and js files
-4. upload zip to amazon aws lambda
+3. echo $GIT_COMMIT_HASH
+4. zip -r insights-pusher-$GIT_COMMIT_HASH.zip *
+5. upload zip to amazon aws lambda
 
 ## tests
 ### test lambda (insights-pusher-lambda.js)
@@ -22,3 +23,4 @@ tests/events.json is one specific event which can be used with insights-pusher-l
 2. base64 encode events.json (Online Base64 Encode)[https://www.base64encode.org]
 3. copy base64 into records.json under Records.kinesis.data
 4. upload to amazon aws lambda as test event
+
