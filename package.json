@@ -1,0 +1,10 @@
+{
+  "name": "aws-lambda-newrelic-insights",
+  "version": "0.0.1",
+  "description": "push events to newrelic insights with aws lambdas",
+  "repository": "",
+  "author": "Daniel Manzke",
+  "dependencies": {
+    "superagent": "^1.4.0"
+  }
+}
