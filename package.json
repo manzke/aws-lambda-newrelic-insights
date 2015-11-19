@@ -4,6 +4,13 @@
   "description": "push events to newrelic insights with aws lambdas",
   "repository": "",
   "author": "Daniel Manzke",
+  "repository" : { 
+  	"type" : "git", 
+  	"url" : "https://github.com/manzke/aws-lambda-newrelic-insights.git"
+  },
+  { 
+	"license" : "MIT" 
+  },
   "dependencies": {
     "superagent": "^1.4.0"
   }
