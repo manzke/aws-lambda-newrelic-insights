@@ -11,5 +11,5 @@ exports.handler = function(event, context) {
                     context.succeed(response);
                 },
                 event, context
-    )
+    );
 };
