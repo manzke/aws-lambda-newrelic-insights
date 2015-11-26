@@ -8,9 +8,7 @@
   	"type" : "git", 
   	"url" : "https://github.com/manzke/aws-lambda-newrelic-insights.git"
   },
-  { 
-	"license" : "MIT" 
-  },
+	"license" : "MIT", 
   "dependencies": {
     "superagent": "^1.4.0"
   }
