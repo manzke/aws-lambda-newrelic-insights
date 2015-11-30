@@ -9,7 +9,7 @@ tests/events.json is one specific event which can be used with insights-pusher-l
 
 1. git clone
 2. npm install
-3. echo $GIT_COMMIT_HASH
+3. GIT_COMMIT_HASH=$(git rev-parse --short HEAD)
 4. zip -r insights-pusher-$GIT_COMMIT_HASH.zip *
 5. upload zip to amazon aws lambda
 6. configure the lambda Handler (insights-pusher-kinesis.handler or insights-pusher-lambda.handler)
